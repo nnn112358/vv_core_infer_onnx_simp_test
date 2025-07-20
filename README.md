@@ -2,7 +2,12 @@
 
 ## このプロジェクトについて
 
+### Fork元
+https://github.com/Hiroshiba/vv_core_inference
+
+
 VV Core Inference SimpleはHiroshiba氏の「vv_core_inference」をベースに、AXERAのNPUで動作することを目指し、簡潔にしたプロジェクトです。音声合成を行うために、以下の4つのモデルを組み合わせて使用します。
+
 
 ### 使用するモデル
 
