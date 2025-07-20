@@ -68,7 +68,7 @@ def run(
         )
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--yukarin_s_model_dir", type=Path, default=Path("model/yukarin_s")
@@ -85,3 +85,7 @@ if __name__ == "__main__":
     parser.add_argument("--speaker_ids", nargs="+", type=int, default=[5, 9])
     parser.add_argument("--method", choices=["onnx"], default="onnx")
     run(**vars(parser.parse_args()))
+
+
+if __name__ == "__main__":
+    main()
